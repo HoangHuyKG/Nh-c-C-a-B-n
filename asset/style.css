@@ -177,6 +177,7 @@
   .song .title {
     font-size: 18px;
     color: var(--text-color);
+    overflow: hidden;
   }
   
   .song .author {
@@ -189,4 +190,8 @@
     color: #999;
     font-size: 18px;
   }
-  
+  .title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }

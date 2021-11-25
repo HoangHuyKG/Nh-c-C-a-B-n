@@ -58,8 +58,7 @@ const app = {
         singer: "Noo Phước Thịnh",
         path: "./song/TELDAKTN.mp3",
         image: "./img/NOO.jpg"
-    },
-    
+    },  
     {
         name: "Giá ngày đầu đừng nói câu thương nhau",
         singer: "Issac",
