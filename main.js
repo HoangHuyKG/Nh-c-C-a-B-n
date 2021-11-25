@@ -232,6 +232,9 @@ const app = {
         this.loadCurrentSong()
         this.handleEvents()
         this.render()
+    },
+    add: function (){
+        
     }
 } 
 app.start()
