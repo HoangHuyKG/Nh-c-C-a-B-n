@@ -115,6 +115,7 @@ const app = {
         }
         this.loadCurrentSong()
         this.render()
+        this.scrollNextSong()
     },
     playrandomSong: function(){
         let newRandom
@@ -129,7 +130,7 @@ const app = {
         setTimeout(() => {
             $('.song.active').scrollIntoView({
                 behavior: 'smooth',
-                block: 'start'
+                block: 'center',
             })
         },300)
     },
@@ -221,7 +222,7 @@ const app = {
                     audio.play()
                 }
                 if(e.target.closest('.option')){
-
+                    
                 }
             }
         }
