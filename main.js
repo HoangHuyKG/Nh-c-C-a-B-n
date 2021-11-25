@@ -64,7 +64,7 @@ const app = {
         name: "Giá ngày đầu đừng nói câu thương nhau",
         singer: "Issac",
         path: "./song/gnddnctn.mp3",
-        image: "./img/í.jpg"
+        image: "./img/Issac.jpg"
     },
     
       
